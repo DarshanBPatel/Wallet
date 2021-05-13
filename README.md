@@ -10,7 +10,8 @@ Simple web application on Django which work same online Wallet
 # How to install and run
 0. clone project
    ```
-   git clone 
+   git clone https://github.com/DarshanBPatel/Wallet 
+ 
    ```
 1. Create a virtual environment and launch it:
    ```
