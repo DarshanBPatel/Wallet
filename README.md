@@ -1,6 +1,12 @@
 # Wallet
 Simple web application on Django which work same online Wallet
 
+## Functionality of wallet
+   - Create Wallet for a User
+   - Credit money to wallet 
+   - Debit money from wallet
+   - Get current Balance
+
 # How to install and run
 1. Create a virtual environment and launch it:
    ```
