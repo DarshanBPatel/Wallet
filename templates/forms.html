@@ -1,0 +1,20 @@
+<p>singup form</p>
+
+<form accept-charset="UTF-8" role="form" method="post" action="/signup/">
+    {% csrf_token %}
+    {{ signup.as_p }}
+    <button> submit</button>
+</form>
+
+
+<br>
+<br>
+<br>
+<form accept-charset="UTF-8" role="form" method="post" action="/login/">
+    {% csrf_token %}
+    <p>login form</p>
+
+    {{ login.as_p }}
+    <button> submit</button>
+
+</form>

@@ -1,0 +1,30 @@
+{{ data }}
+
+
+<p> balance : {{ data.balance }} </p>
+
+<p> first_name : {{ data.first_name }} </p>
+
+<p> mobile_number : {{ data.mobile_number }} </p>
+
+
+<br>
+<br><br>
+<form accept-charset="UTF-8" role="form" method="post" action="/dashboard/">
+    {% csrf_token %}
+    {{ formDebit }}
+    <p name="mobile_number" value={{ data.mobile_number }} hidden>
+        <button> Debit</button>
+</form>
+
+
+<br><br>
+
+<form accept-charset="UTF-8" role="form" method="post" action="/dashboard/">
+    {% csrf_token %}
+    <p name="mobile_number" value={{ data.mobile_number }} hidden>
+
+        {{ formCredit }}
+
+        <button> Credit</button>
+</form>
