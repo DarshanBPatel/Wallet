@@ -17,6 +17,9 @@ Simple web application on Django which work same online Wallet
    ```
 
 2. cd to project root directory of the project wallet
+   ```
+   cd Wallet
+   ```
 
 3. Install requirements:
    ```
