@@ -3,9 +3,9 @@ Simple web application on Django which work same online Wallet
 
 # How to install and run
 1. Create a virtual environment and launch it:
-   
+   ```
    virtualenv -p python3 .venv
-
+   ```
    source .venv/bin/activate
 
 2. cd to project root directory of the project wallet
